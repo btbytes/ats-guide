@@ -36,18 +36,20 @@ $endfor$
 <body>
 
 <div class="wrapper">
-<nav id="sidebar">
-  $toc$
-</nav>
 
 <section id="content">
 <header>
 <h1 class="title">$title$</h1>
-<h3 class="date">$date$</h3>
 </header>
 
 $body$
 </section>
+
+<nav id="sidebar">
+<p class="date">Updated $date$</p>
+  $toc$
+</nav>
+
 </div><!-- .wrapper -->
 
 </body>

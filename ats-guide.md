@@ -4,20 +4,56 @@ author: <a href="https://twitter.com/btbytes">@btbytes</a>
 date: Sunday, 11 May 2014
 ---
 
-This guide is an effort to provide developers interested
-in devloping programs, libraries and applications using the
-ATS programming language. The goal of this guide to provide
-a handbook to the installation, configuration and usage of
-ATS on a daily basis.
+This guide is an effort to provide developers interested in devloping
+programs, libraries and applications using the ATS programming
+language. The goal of this guide to provide a handbook to the
+installation, configuration and usage of ATS on a daily basis.
 
 This guide is under active development. You can contribute improvements
-on [github](https://github.com/btbytes/ats-guide) or
-[gitlab](https://gitlab.com/btbytes/ats-guide/).
+on [github](https://github.com/btbytes/ats-guide).
 
 
 ## Why ATS?
 
-- Specification -> Implementation
+There has been much work on the importance of using formal verification
+methods to build software. However, these methods haven't been adopted
+widely. One reason could be that there appeared to be a chasm betweeen
+the tools used in formal methods and those of the "work-a-day"
+programmer. ATS takes a programmer-centric approach to program
+verification that combines programming with theorem-proving using the
+same language syntax. Thus, ATS unifies implementation with formal
+specification. The name ATS stands for *Advanced Type System*.
+
+ATS combines the practicality of low-level, system programming with many
+decades of proven computer science research and development. In general,
+if you want to develop safe, verifiable(?) and highly performant
+software, ATS might be a good choice.
+
+ATS plays well with the C ecosystem in that it is possible to use C
+libraries, in many cases adding additional protection not offered by C.
+
+ATS generates C code which can be shipped without the need for
+additional runtime. By this virtue, the programmer can continue to
+develop software using the safety and performance offered by the ATS
+system without having to worry about runtime performance issues,
+compatibility with downstream users etc.,.
+
+
+The [front page](http://www.ats-lang.org/) has more details.
+
+
+## Basic information
+
+ATS is developed by [Dr Hongwei Xi](http://www.cs.bu.edu/~hwxi/) at
+Boston University.
+
+- Website -
+- Code repository -
+- Users mailing list -
+
+
+## What is ATS?
+
 - Correctness
 - Fast (as fast as C)
 - Functional Programming
@@ -36,37 +72,53 @@ environment.
 
 ## Hello world
 
+## Shipping a program written in ATS
+
+## Using ATS libraries
+
+## Using third party libraries
+
+## Finding third party libraries
+
+## Shipping an application written in ATS
+
+## Shipping a library written in ATS
+
+## Package management?
+
+## Calling C from ATS
+
+## Calling ATS from C
+
+## Testing
+
+## Benchmarking
+
+## Boilerplate - program/lib/application
+
 
 ## What is ATS?
 
 - Compiler
 - Libraries
-- Editor support
 - code examples
 - papers
 - applications
 
-## How to: ATS
 
-- Shipping a program written in ATS
-- Using ATS libraries
-- Using third party libraries
-- Finding third party libraries
-- Shipping an application written in ATS
-- Shipping a library written in ATS
-- Package management?
-- Calling C from ATS
-- Calling ATS from C
-- Testing
-- Benchmarking
-- Boilerplate - program/lib/application
+## Opportunities (library, applications) to use ATS
 
-## Where to (use) ATS
 
-- Opportunities (library, applications)
-- "Killer app" (eg: PrinceXML and Mercury)
+## What are the "Killers apps"
+
+## Reading Material and references
+
+- [A Programmer-Centric Approach to Program Verification in ATS, Automated Reasoning in Security and Software Verification](http://www.cs.bu.edu/~hwxi/academic/papers/arsec13.pdf) (pdf).
+- [ATS: A Language that Combines Programming
+with Theorem Proving](http://www.cs.bu.edu/~hwxi/academic/papers/frocos05.pdf)
 
 ## Inspiration
 
 - [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/)
 - [\@bitemyapp's recommended path for learning Haskell](https://gist.github.com/bitemyapp/8739525)
+- [What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/#unordered-containers)
