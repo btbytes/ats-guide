@@ -15,14 +15,28 @@ on [github](https://github.com/btbytes/ats-guide).
 
 ## Why ATS?
 
-There has been much work on the importance of using formal verification
-methods to build software. However, these methods haven't been adopted
-widely. One reason could be that there appeared to be a chasm betweeen
-the tools used in formal methods and those of the "work-a-day"
-programmer. ATS takes a programmer-centric approach to program
-verification that combines programming with theorem-proving using the
-same language syntax. Thus, ATS unifies implementation with formal
-specification. The name ATS stands for *Advanced Type System*.
+This guide started as a self-directed attempt to teach myself ATS and
+use it for practical programming.
+
+It is one thing to be able to write a program in a language without ever
+caring how to do the same to write an entire application, a script "in
+anger".
+
+But is altoghter a different proposition to write a living software that
+is expected to be used and maintained for many years when the initial
+euphoria for "trying out" a new language has worn out. Specifications
+are forgotten, design documents are lost to bit rot and there is the
+inevitable loss of "trial knowledge" due to developer attrition.
+
+Anyway, coming to ATS: there has been much work on the importance of
+using formal verification methods to build software. However, these
+methods haven't been adopted widely. One reason could be that there
+appeared to be a chasm betweeen the tools used in formal methods and
+those of the "work-a-day" programmer. ATS takes a programmer-centric
+approach to program verification that combines programming with
+theorem-proving using the same language syntax. Thus, ATS unifies
+implementation with formal specification. The name ATS stands for
+*Advanced Type System*.
 
 ATS combines the practicality of low-level, system programming with many
 decades of proven computer science research and development. In general,
