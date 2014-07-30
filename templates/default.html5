@@ -46,6 +46,7 @@ $body$
 </section>
 
 <nav id="sidebar">
+<p class="author">$author$</p>
 <p class="date">Updated $date$</p>
   $toc$
 </nav>

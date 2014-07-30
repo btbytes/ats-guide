@@ -1,22 +1,15 @@
 ---
 title: The Hitchhiker's guide to ATS
-author: <a href="https://twitter.com/btbytes">@btbytes</a>
-date: Sunday, 11 May 2014
+author: <a href="http://www.btbytes.com/">Pradeep Gowda</a>
+date: 12 May 2014
 ---
 
-This guide is an effort to provide developers interested in devloping
-programs, libraries and applications using the ATS programming
-language. The goal of this guide to provide a handbook to the
-installation, configuration and usage of ATS on a daily basis.
-
-This guide is under active development. You can contribute improvements
+This notebook started as journal of my self-directed attempt to learn ATS and
+use it for practical programming. You can contribute improvements
 on [github](https://github.com/btbytes/ats-guide).
 
 
 ## Why ATS?
-
-This guide started as a self-directed attempt to teach myself ATS and
-use it for practical programming.
 
 It is one thing to be able to write a program in a language without ever
 caring how to do the same to write an entire application, a script "in
