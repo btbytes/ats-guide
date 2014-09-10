@@ -7,6 +7,6 @@ index.html: ats-guide.md
 
 clean:
 	rm -f index.html
-	rm *~
+	rm -f *~
 
 .PHONY: clean
